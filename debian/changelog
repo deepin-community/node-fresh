@@ -1,0 +1,42 @@
+node-fresh (0.5.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 0.5.2
+  * Remove patches
+  * Update test
+  * Update debian/docs
+  * Install history
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 04 Dec 2019 20:33:06 +0100
+
+node-fresh (0.2.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:43:04 +0200
+
+node-fresh (0.2.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change priority to optional
+  * Add upstream/metadata
+  * Add patch to fix regexp ddos (Closes: #927715, CVE-2017-16119)
+  * Fix and enable upstream test using pkg-js-tools
+  * Fix VCS fields
+  * Fix copyright format URL
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 25 Apr 2019 12:23:28 +0200
+
+node-fresh (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #727797)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 27 Oct 2013 00:11:02 +0200
